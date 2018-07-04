@@ -1,2 +1,8 @@
 # getkKeywordKnowledge
 这是一个能够根据关键词进行深度遍历在百度百科上面爬取得到关键词的名字以及百度百科对它的解析
+
+1.html_downloader: 主要是设置下载网页并获得网页的内容
+2.html_outputer:主要是将下载好的内容输出到output.html网页上面
+3.html_parser:设置网页循环得到新的对象和下一个网页，这里面可以设置具体爬取的内容
+4.spider_main:设置SpiderMain对象和循环次数同时主函数也在这个文件里面
+5.url_manager:管理url的列表，避免重复爬取。
